@@ -7,6 +7,7 @@ import React, { useState, useEffect } from 'react';
 import { getPosts } from '../services/userService';
 import './Feed.css';
 
+const baseurl = "http://a83ab0f0e6671462c87d9c3980002854-1490594495.us-west-2.elb.amazonaws.com/";
 const Feed = () => {
     const [posts, setPosts] = useState([]);
     const [otherPeoplePosts, setOtherPeoplePosts] = useState([]); // New state for other people's posts
