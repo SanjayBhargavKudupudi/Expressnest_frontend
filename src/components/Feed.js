@@ -18,7 +18,7 @@ const Feed = () => {
     useEffect(() => {
         let response;
         // try {
-        //     response = axios.get('/post/user/{userIds}', {
+        //     response = axios.get('/posts/user/{userIds}', {
         //         params: {
         //             "page": 0,
         //             "size": 1,
@@ -108,7 +108,7 @@ const Feed = () => {
     useEffect(() => {
         let response;
         // try {
-        //     response = axios.get('/post/by-postIds', {
+        //     response = axios.get('/posts/by-postIds', {
         //         params: {
         //             page: 0,
         //             size: 1,
